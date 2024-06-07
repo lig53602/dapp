@@ -24,10 +24,14 @@ createWeb3Modal({
     enableAnalytics: true, // Optional - defaults to your Cloud configuration
     enableOnramp: true // Optional - false as default
   })
+
+defineProps({
+  msg: String,
+});
 </script>
 
 <template>
-  <span class="read-the-docs">23423</span>
+  <span class="read-the-docs">{{ msg }}</span>
   <w3m-button />
 </template>
 

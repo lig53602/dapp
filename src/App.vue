@@ -1,11 +1,11 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Dapps from './components/Dapps.vue'
+
 </script>
 
 <template>
   <HelloWorld msg="Vite +23 Vue" />
-  <Dapps/>
+ 
 </template>
 
 <style scoped>
