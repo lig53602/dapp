@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@wagmi/connectors": "^5.0.9",
+    "@wagmi/core": "^2.10.5",
+    "@web3modal/wagmi": "^4.2.3",
+    "viem": "^2.13.7",
     "vue": "^3.4.27"
   },
   "devDependencies": {
